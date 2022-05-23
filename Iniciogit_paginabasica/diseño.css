@@ -1,0 +1,95 @@
+h1{
+	background-color: rgb(9, 149, 154);
+	color: white;
+	text-align: center;
+}
+h2{
+	padding: 10px;
+	font: cursive;
+	color: black;
+	text-align: center;
+}
+body{
+	padding: 5%;
+	height: 800px;
+	width: 90%;
+	background-color: white;
+}
+footer{
+	text-align: center;
+	padding: 3px;
+	background-color:rgb(9, 149, 154);
+	color: white;
+}
+p{
+	size: 15px;
+	font: cursive;
+	color: black;
+}
+a:hover{
+	color: rgb(40, 0, 242);
+}
+
+table { font-family: «Lucida Sans Unicode», «Lucida Grande», Sans-Serif;
+	font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse; }
+	
+	th { font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe;
+	border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039; }
+	
+	td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+	color: #669; border-top: 1px solid transparent; 
+}
+
+ul.acorh,ul.acorh * {
+margin: 2px;
+padding: 2px;
+border: 1px solid transparent;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: circle;
+width: 80%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: flex;
+padding: 10px 10px 10px 20px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid rgb(12, 172, 197);
+border-top: 1px solid rgb(20, 129, 231);
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+background: rgb(6, 111, 132);
+color: white;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:hover ul {
+	max-height: 150px;
+	transition: .3s all ease-in;
+	}
+ul.acorh li a:hover {
+	background: rgb(9, 166, 197);
+	color: #fff;
+}
